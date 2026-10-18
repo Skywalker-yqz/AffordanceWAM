@@ -1,0 +1,47 @@
+{
+  "stage": "pretrain",
+  "model": {
+    "base_model": "wan2_2_ti2v_5b",
+    "world_mode": "rgb_scalar_overlay",
+    "action_dim": 7,
+    "action_horizon": 12,
+    "state_dim": 7,
+    "action_dit_dim": 1024,
+    "action_ffn_dim": 4096,
+    "action_cross_num_heads": 8,
+    "lambda_scalar_afd_final": 0.2,
+    "lambda_overlay_final": 0.5,
+    "lambda_scalar_reconstruction": 0.1,
+    "lambda_action": 1.0,
+    "use_gradient_checkpointing": true,
+    "pretrain_world_only_updates": 7000,
+    "inference_world_denoise_steps": 35,
+    "inference_action_denoise_steps": 35,
+    "action_refinement_steps": 8,
+    "action_refinement_strength": 0.25
+  },
+  "data": {
+    "robot_affordance_manifest": "data/preprocessed/robot_train.jsonl",
+    "human_affordance_manifest": "data/preprocessed/human_train.jsonl",
+    "normalization_stats": null,
+    "human_ratio": 0.5
+  },
+  "training": {
+    "output_dir": "outputs/pretrain",
+    "batch_size": 4,
+    "gradient_accumulation_steps": 1,
+    "num_workers": 4,
+    "max_steps": 100000,
+    "codec_calibration_updates": 1000,
+    "lr": 0.0001,
+    "weight_decay": 0.01,
+    "betas": [
+      0.9,
+      0.95
+    ],
+    "grad_clip": 1.0,
+    "seed": 0,
+    "save_steps": 1000,
+    "log_steps": 10
+  }
+}

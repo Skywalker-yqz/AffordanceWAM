@@ -1,0 +1,6 @@
+This directory contains a vendored Wan video-backbone implementation.
+
+Source attribution:
+- Derived from DiffSynth-Studio (Apache 2.0).
+
+The original Apache 2.0 license is kept in `license/LICENSE`.

@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+
+# Training outputs and checkpoints
+outputs/
+checkpoints/
+artifacts/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.distcp
+
+# Logs and experiment tracking
+*.log
+wandb/
+runs/
+tensorboard/
+
+# Local models and datasets
+/models/
+data/*/
+!data/preprocessed/
+data/preprocessed/*
+!data/preprocessed/.gitkeep
+RoboInter/
+*.h5
+*.hdf5
+*.parquet
+*.npy
+*.npz
+*.jsonl
+*.affidx*
+
+# Generated media and archives
+*.mp4
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+
+# Credentials and local configuration
+.env
+.envrc
+*.key
+*.pem
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo

@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "affordance_wam"
+version = "1.0.0"
+description = "AffordanceWAM: Affordance-Aware Joint World-Action Modeling for Robot Manipulation."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10,<3.12"
+authors = [{ name = "AffordanceWAM Authors" }]
+dependencies = [
+    "av>=13.1,<14",
+    "einops>=0.7,<0.9",
+    "ftfy>=6.3,<7",
+    "huggingface-hub>=0.29,<0.30",
+    "imageio>=2.37,<3",
+    "imageio-ffmpeg>=0.5,<0.7",
+    "matplotlib>=3.9,<3.11",
+    "numpy>=1.26,<2",
+    "omegaconf>=2.3,<2.4",
+    "opencv-python-headless>=4.10,<4.11",
+    "pandas>=2.2,<2.3",
+    "pillow>=10.3,<12",
+    "protobuf>=5.29,<6",
+    "regex>=2024.11.6",
+    "safetensors>=0.5,<0.6",
+    "sentencepiece>=0.2,<0.3",
+    "torch==2.6.0",
+    "torchvision==0.21.0",
+    "tqdm>=4.67,<5",
+    "transformers>=4.49,<4.50",
+    "typing-extensions>=4.12,<5",
+]
+
+[project.optional-dependencies]
+train = ["deepspeed==0.16.9"]
+dev = ["pytest==8.3.5", "pytest-xdist==3.6.1", "build==1.2.2.post1"]
+
+[project.urls]
+Homepage = "https://skywalker-yqz.github.io/AffordanceWAM/"
+Repository = "https://github.com/Skywalker-yqz/AffordanceWAM"
+
+[tool.setuptools.packages.find]
+include = ["affordance_wam*"]
+
+[tool.setuptools.package-data]
+affordance_wam = ["wan_vendor/license/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+filterwarnings = ["ignore::DeprecationWarning"]
