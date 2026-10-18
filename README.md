@@ -197,4 +197,10 @@ The World Expert builds on [Wan2.2](https://github.com/Wan-Video/Wan2.2) and vid
 
 ## License
 
-Released under the [MIT License](LICENSE). Vendored video-backbone components retain their [Apache 2.0 license and attribution](affordance_wam/wan_vendor/license/).
+Original AffordanceWAM contributions are released under the [MIT License](LICENSE).
+Vendored video-backbone components retain their
+[Apache 2.0 license and attribution](affordance_wam/wan_vendor/license/), together
+with the applicable notices for their third-party components. External software,
+pretrained models, and datasets retain their respective licenses and terms.
+See [Third-party notices](THIRD_PARTY_NOTICES.md) and the
+[Python dependency license inventory](licenses/PYTHON_DEPENDENCIES.md) for details.
