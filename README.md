@@ -4,11 +4,11 @@
 
 [![Project Page](https://img.shields.io/badge/Project-Page-8A5CD0)](https://skywalker-yqz.github.io/AffordanceWAM/) [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b)](https://arxiv.org/abs/2609.22332) [![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 
-[Jiadi You](https://scholar.google.com/citations?hl=en&user=G5RR8WEAAAAJ)<sup>1,3,†</sup>, [Qize Yu](https://skywalker-yqz.github.io/)<sup>2,†</sup>, [Yue Chen](https://yuechen0614.github.io/)<sup>2</sup>, [Minghong Cai](https://onevfall.github.io/personal_page/)<sup>4</sup>, [Zhide Zhong](https://scholar.google.com/citations?user=msy4tL4AAAAJ)<sup>3</sup>, [Yuran Wang](https://wayrise.github.io/)<sup>5</sup>, [Bowen Ping](https://scholar.google.com/citations?hl=zh-CN&user=DjcKZdkAAAAJ)<sup>2</sup>, [Jiaqi Liang](https://screatorx.github.io/SCreatorX/)<sup>2</sup>, [Zhenhao Shen](https://github.com/stubborn111)<sup>2</sup>, [Haodong Yan](https://haodong-yan.github.io/)<sup>3</sup>, [Yinchuan Li](https://yinchuanll.github.io/)<sup>6</sup>, [Ruihai Wu](https://warshallrho.github.io/)<sup>2</sup>, [Xiaojuan Qi](https://xjqi.github.io/)<sup>1,*</sup>, [Yingcong Chen](https://www.yingcong.me/)<sup>3,*</sup>
+[Jiadi You](https://scholar.google.com/citations?hl=en&user=G5RR8WEAAAAJ)<sup>1,3,†</sup>, [Qize Yu](https://skywalker-yqz.github.io/)<sup>2,†</sup>, [Yue Chen](https://yuechen0614.github.io/)<sup>2</sup>, [Minghong Cai](https://onevfall.github.io/personal_page/)<sup>4</sup>, [Zhide Zhong](https://scholar.google.com/citations?user=msy4tL4AAAAJ)<sup>3</sup>, [Yuran Wang](https://wayrise.github.io/)<sup>5</sup>, [Bowen Ping](https://scholar.google.com/citations?hl=zh-CN&user=DjcKZdkAAAAJ)<sup>2</sup>, [Jiaqi Liang](https://screatorx.github.io/SCreatorX/)<sup>2</sup>, [Zhenhao Shen](https://github.com/stubborn111)<sup>2</sup>, [Haodong Yan](https://haodong-yan.github.io/)<sup>3</sup>, [Yinchuan Li](https://yinchuanll.github.io/)<sup>6</sup>, [Ruihai Wu](https://warshallrho.github.io/)<sup>2</sup>, [Xiaojuan Qi](https://xjqi.github.io/)<sup>1,&#42;</sup>, [Yingcong Chen](https://www.yingcong.me/)<sup>3,&#42;</sup>
 
 <sup>1</sup>The University of Hong Kong &nbsp;&nbsp; <sup>2</sup>Peking University &nbsp;&nbsp; <sup>3</sup>HKUST (GZ) &nbsp;&nbsp; <sup>4</sup>The Chinese University of Hong Kong &nbsp;&nbsp; <sup>5</sup>National University of Singapore &nbsp;&nbsp; <sup>6</sup>Knowin AI
 
-<sup>†</sup>Equal contribution &nbsp;&nbsp; <sup>*</sup>Corresponding authors
+<sup>†</sup>Equal contribution &nbsp;&nbsp; <sup>&#42;</sup>Corresponding authors
 
 </div>
 
